@@ -1,0 +1,39 @@
+# Unit test / coverage reports
+.coverage
+.cache
+coverage.xml
+cover/
+coverage/
+
+# Translations
+*.mo
+*.pot
+
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
+# NPM & Bower
+node_modules/
+bower_components/
+
+# Local configuration
+app.config.js

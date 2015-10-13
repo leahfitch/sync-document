@@ -1,0 +1,24 @@
+{
+  "name": "sync-document",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive tests/* lib/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elishacook/sync-document"
+  },
+  "author": "Elisha Fitch-Cook <elisha@elishacook.com> (https://github.com/elishacook)",
+  "license": "MIT",
+  "dependencies": {
+    "jsondiffpatch": "^0.1.37"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.17.1",
+    "sinon-chai": "^2.8.0"
+  }
+}
